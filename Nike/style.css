@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    width: 100%;
+    background: url("Images/photo_2021-06-12_09-36-32.jpg");
+    height: 670px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 1133px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+h1{
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    text-decoration: none;
+
+}

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    /*background: url("Images/photo_2021-06-12_09-36-32.jpg");*/
+    background-size: cover;
+    background-image: url("Images/img_5.png");
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+
+
+}
+header nav{
+    width: 1333px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+header nav ul{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: red;
+    text-decoration: none;
+    font-weight: 900;
+}
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    /*border: 1px solid;*/
+    text-align: center;
+    padding: 20px 10px;
+
+
+
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+
+
+}
+
+h1{
+    text-align: center;
+    color: red;
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 0;
+}
+
+section{
+    width: 100%;
+    height: 505px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.boxs{
+    /*margin: auto;*/
+    /*margin-left: 50px;*/
+    width: 600px;
+    height: 500px;
+    /*border: 1px solid black;*/
+
+}
+.boxis{
+    /*margin: auto;*/
+    width: 600px;
+    height: 500px;
+    /*border: 1px solid black;*/
+}
+
+.rasm{
+    width: 400px;
+
+}
+h2{
+    padding: 10px;
+
+}
+.puma{
+    padding: 10px;
+}
+.qator1{
+    display: flex;
+}
+.boc p{
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.qator2{
+    display: flex;
+}
+
+.qator3{
+    display: flex;
+}
+
+.qator4{
+    display: flex;
+}
+.rebook{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    /*border: 1px solid black;*/
+    /*margin: auto;*/
+    display: flex;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+
+}
+.bos{
+    width: 130px;
+    height: 200px;
+    margin: auto;
+
+    /*border: 1px solid black;*/
+
+
+}
+.bos a{
+    color: gray;
+    text-decoration: none;
+
+}
+.bos a::after{
+    content:'';
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: gray;
+    opacity: 0;
+
+}
+
+.bos a:hover::after{
+    opacity: 1;
+    color: red;
+
+
+}
+
+.bos a:hover{
+    opacity: 1;
+    color: red;
+
+
+}
+.bos p{
+    padding-left: 10px;
+    font-size: 20px;
+
+}
+
+
+
